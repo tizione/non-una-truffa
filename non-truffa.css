@@ -1,0 +1,47 @@
+.div{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.titolo{
+    color: rgb(255, 105, 105);
+    font-size: 50px;
+}
+
+.subTitolo{
+   color:rgb(8, 189, 8);
+   font-size:20px;
+    
+}
+
+.bottone-div{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.bottone{
+    background-color:lightblue;
+    border:none;
+    width:60%;
+    height:100px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: Cambria;
+    font-weight:bold;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+    cursor:pointer;
+    transition: width 1s, font-size 1s,height 1s;
+}
+
+.bottone:hover{
+    width:70%;
+    font-size: 30px;
+    height:200px;
+}
+
+.bottone:active{
+
+}
